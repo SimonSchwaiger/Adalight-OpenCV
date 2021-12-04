@@ -1,0 +1,6 @@
+opencv-python
+pyserial
+Pillow
+numpy
+scikit-image
+rpi_ws281x
