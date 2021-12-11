@@ -1,0 +1,17 @@
+{
+    "cameraName": "/dev/video2",
+    "portn": "/dev/ttyUSB0",
+    "baudr": "115200",
+    "numLEDs": 79,
+    "invertLEDOrder": 1,
+    "Autowhitebalance": 0,
+    "Gamma": 1,
+    "Saturation": 1,
+    "SmoothingWeight": 0.4,
+    "ColourTemp": 0,
+    "MaskUpdateRate": 1000,
+    "InitialMaskFrames": 300,
+    "SleepBetweenRefreshes": 0.016,
+    "MQTTIP": "192.168.1.158",
+    "MQTTCredentials": ["adalight", "adalight"]
+}
