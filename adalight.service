@@ -4,7 +4,7 @@ After=multi-user.target
 
 [Service]
 Type=idle
-ExecStart=/bin/bash -c "source ~/myenv/bin/activate && python /home/pi/git/Adalight-OpenCV/MQTTApp.py"
+ExecStart=/bin/bash -c "source ~/myenv/bin/activate && python /home/pi/git/Adalight-OpenCV/MQTTApp.py" &> /home/pi/git/Adalight-OpenCV/service.log
 
 [Install]
 WantedBy=multi-user.target
