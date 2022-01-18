@@ -1,0 +1,10 @@
+[Unit]
+Description=Adalight MQTT Service
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/python /home/pi/git/Adalight-OpenCV/MQTTApp.py
+
+[Install]
+WantedBy=multi-user.target

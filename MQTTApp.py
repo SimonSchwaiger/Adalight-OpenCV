@@ -4,6 +4,9 @@ import paho.mqtt.client as mqtt
 # https://pypi.org/project/paho-mqtt/
 # https://community.home-assistant.io/t/create-a-button-to-publish-to-mqtt/239077
 
+# Add to run on startup
+# https://www.dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup/
+
 import json
 import time
 import subprocess
