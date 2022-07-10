@@ -6,7 +6,7 @@ This repository implements ambient lighting for TVs and monitors using a webcam.
 
 ## Required Components
 
-![Component Overview](./images/.componentOverview.png)
+![Component Overview](./images/componentOverview.png)
 
 - Microcontroller and digital RGB strips compatible with [FastLED](https://github.com/dmadison/Adalight-FastLED)
 - USB Webcam
