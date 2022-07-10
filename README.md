@@ -33,7 +33,7 @@ In the [configuration file](./config.json), the application can be configured to
 - **invertLEDOrder**: Inverts transmitted LED colours to match strip orientation to webcam orientation (possible values are 0 and 1)
 
 
-Finally, connect the flashed microcontroller to the the PC and start [application.py](application.py) in the configured virtual environment. The intended way for the application to be started, is to add it as a systemd service to start it automaticall, as described [here](https://www.dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup/). A sample service [configuration](./adalight.service) is provided in the repository. It assumes the repository and virtual environment to be located in */home/pi/git/Adalight-OpenCV* and */home/pi/myenv* respectively.
+Finally, connect the flashed microcontroller to the the PC and start [application.py](application.py) in the configured virtual environment. The intended way for the application to be started, is to add it as a systemd service to start it automatically, as described [here](https://www.dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup/). A sample service [configuration](./adalight.service) is provided in the repository. It assumes the repository and virtual environment to be located in */home/pi/git/Adalight-OpenCV* and that the virtual environment is called *myenv*.
 
 ## Further Improvements
 

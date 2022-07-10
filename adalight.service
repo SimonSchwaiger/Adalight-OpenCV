@@ -3,8 +3,8 @@ Description=Adalight MQTT Service
 After=multi-user.target
 
 [Service]
-Type=idle
-ExecStart=/bin/bash -c "source ~/myenv/bin/activate && python /home/pi/git/Adalight-OpenCV/MQTTApp.py" &> /home/pi/git/Adalight-OpenCV/service.log
+Type=exec
+ExecStart=/home/pi/git/Adalight-OpenCV/myenv/bin/python /home/pi/git/Adalight-OpenCV/MQTTApp.py
 
 [Install]
 WantedBy=multi-user.target
